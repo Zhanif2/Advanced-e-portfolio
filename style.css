@@ -13,6 +13,21 @@ li{
     list-style-type: none;
 }
 
+section {
+    background-color: rgb(245, 245, 245);
+}
+
+/* 
+
+LANDING PAGE
+
+*/
+
+#landing-page{
+    height: 100vh;
+}
+
+
 /* 
 
 NAVIGATION 
@@ -30,8 +45,8 @@ nav{
 }
 
 #zh-logo{
-    width: 70px;
-    height: 50px;
+    width: 150px;
+    height: 100px;
     filter: invert(1);
 }
 
@@ -48,4 +63,8 @@ nav{
     font-size: 16px;
     color: #242424;
     font-weight: 700;
+}
+
+.fa-adjust{
+    font-size: 20px;
 }
