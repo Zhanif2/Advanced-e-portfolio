@@ -14,8 +14,10 @@ li{
 }
 
 section {
-    background-color: rgb(245, 245, 245);
+background-color: rgb(245, 245, 245);
 }
+
+
 
 /* 
 
@@ -24,10 +26,17 @@ LANDING PAGE
 */
 
 #landing-page{
-    height: 100vh;
+    min-height: 100vh;
 }
 
-
+.header{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+width: 100%;
+max-width: 1000px;
+}
 /* 
 
 NAVIGATION 
