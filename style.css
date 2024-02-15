@@ -25,6 +25,7 @@ section {
 
 .container {
   padding: 50px 0;
+  width: 100%;
 }
 
 .row {
@@ -203,6 +204,10 @@ PROJECTS
   text-align: center;
   font-size: 48px;
   margin-bottom: 60px;
+}
+
+.project{
+    margin-bottom: 135px;
 }
 
 .project__img {
