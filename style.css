@@ -278,5 +278,39 @@ PROJECTS
 }
 
 
+/*
 
-/*1:04:54
+FOOTER
+
+*/
+footer{
+  background-color: rgb(36, 36, 36);
+  display: flex;
+  padding: 6% 0px;
+}
+
+.footer__row{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer__logo--img{
+  width: 150px;
+  height: 100px;
+}
+
+
+.footer__social--list{
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+
+.footer__social--link, 
+.footer__copyright{
+  color: white;
+}
