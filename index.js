@@ -14,11 +14,6 @@ else{
 }
 }
 
-
-
-
-
-
 function contact(){
     event.preventDefault();
     const loading = document.querySelector('.modal__overlay--loading');
