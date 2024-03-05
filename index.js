@@ -1,6 +1,23 @@
 //template_3y4odfd
 //service_b202oir
 //publicKey: "EHDaYKGnJG1wc9pg6
+let isModalOpen = false;
+let contrastToggle = false;
+
+function toggleContrast(){
+contrastToggle = !contrastToggle;
+if (contrastToggle){
+document.body.classList += "dark-theme"
+}
+else{
+    document.body.classList.remove("dark-theme")
+}
+}
+
+
+
+
+
 
 function contact(){
     event.preventDefault();
@@ -25,7 +42,6 @@ function contact(){
 }
 
 
-let isModalOpen = false;
 function toggleModal(){
     if (isModalOpen){
         isModalOpen = false;
