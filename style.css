@@ -23,6 +23,8 @@ p {
 a {
   text-decoration: none;
 }
+
+
 section {
   background-color: rgb(245, 245, 245);
   transition: all 300ms ease;
@@ -58,7 +60,7 @@ border-color: #dcdfe6;
 }
 
 input:focus, textarea:focus{
-  border-color: #f06449;
+  border-color: #A2BFFE;
 
 }
 
@@ -94,14 +96,14 @@ button {
 }
 
 .title {
-  font-size: 120px;
+  font-size: 110px;
   margin-bottom: 12px;
   text-align: left;
   line-height: 1;
 }
 
 .orange {
-  color: #f06449 !important;
+  color: #A2BFFE !important;
 }
 
 
@@ -125,6 +127,8 @@ button {
 .link__hover-effect--black:after{
   background-color: #000;
 }
+
+
 
 .link__hover-effect--white:after{
   background-color: #fff;
@@ -167,7 +171,7 @@ nav,
 }
 
 .dark-theme #personal-logo{
-  filter: none;
+  filter: invert(1);
 }
 
 .dark-theme .scroll__icon{
@@ -215,7 +219,7 @@ LANDING PAGE
 }
 
 .social__link {
-  background-color: #f06449;
+  background-color: #A2BFFE;
   color: white;
   padding: 6px;
   width: 32px;
@@ -227,6 +231,8 @@ LANDING PAGE
   align-items: center;
   border-radius: 50%;
 }
+
+
 
 .mail_btn {
   width: 70px;
@@ -293,9 +299,8 @@ nav {
 }
 
 #personal-logo {
-  width: 150px;
+  width: 100px;
   height: 100px;
-  filter: invert(1);
 }
 
 .nav__link--list {
@@ -424,8 +429,8 @@ margin-bottom: 20px;
 }
 
 .form__submit {
-background-color: #f06449;
-border: 2px solid #f06449;
+background-color: #A2BFFE;
+border: 2px solid #A2BFFE;
 color: white;
 font-weight: 700;
 width: 100%;
@@ -477,6 +482,10 @@ display: flex;
 
 .fa-spinner {
 animation: spinner 750ms infinite linear;
+}
+
+.modal__title{
+  font-size: 28px;
 }
 
 @keyframes spinner {
@@ -574,7 +583,7 @@ PROJECTS
 }
 
 .project__description--sub-title {
-    margin: 8px;
+    margin-top: 8px;
   }
 
 .project__description--link {
@@ -607,8 +616,9 @@ footer{
 }
 
 .footer__logo--img{
-  width: 150px;
+  width: 100px;
   height: 100px;
+  filter: invert(1);
 }
 
 
@@ -628,7 +638,7 @@ footer{
 
 .footer__logo--popper {
   position: absolute;
-  right: 56px;
+  right: 32px;
   top: 40px;
   font-weight: 700;
   opacity: 0;
