@@ -737,7 +737,6 @@ SHAPES
 /* Small phones */
 @media (max-width: 480px) {
   #personal-logo{
-    width: 140px;
     height: 90px;
   }
   .title {
